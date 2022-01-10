@@ -24,8 +24,13 @@
   }
 
   .fixed-top .navbar-brand {
-    background-image: url(../images/logo/logo.png);
+    /* background-image: url(../images/logo/logo.png);
     width: 150px;
+    height: 50px; */
+  }
+
+  .logo-img {
+    width: 160px;
     height: 50px;
   }
 

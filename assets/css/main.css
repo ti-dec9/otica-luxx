@@ -440,19 +440,19 @@ body {
 .fixed-top {
   border-bottom: 1px solid rgba(224, 224, 224, 0.1);
 }
-.fixed-top .navbar-brand {
+/* .fixed-top .navbar-brand {
   background-image: url(../images/logo/logo-white.png);
   width: 150px;
   height: 50px;
   position: relative;
-}
+} */
 
-.nav-fixed .navbar-brand{
+/* .nav-fixed .navbar-brand{
   background-image: url(../images/logo/logo.png);
   width: 150px;
   height: 50px;
   position: relative;
-}
+} */
 .fixed-top .navbar-brand .brand-bg {
   width: 6px;
   height: 6px;
