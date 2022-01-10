@@ -34,6 +34,15 @@ $(document).ready(function () {
         }, 1000);
     });
 
+    /*========== Start Scroll For Link To Go Section *2 ==========*/
+    $('.up-screen').on('click', function (e) {
+        e.preventDefault();
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - 82
+        }, 1000);
+    });
+
 
     // Sync Navbar Links With Section
     $('body').scrollspy({
