@@ -23,15 +23,17 @@
     color: #f9f9f9;
   }
 
-  .fixed-top .navbar-brand {
-    background-image: url(../images/logo/logo.png);
-    width: 150px;
-    height: 50px;
+  .logo-mobile{
+    width: 120px;
+    height: auto;
+    display: block;
   }
 
-  .logo-img {
-    width: 160px;
-    height: 50px;
+  .navbar-brand {
+    display: none;
+  }
+
+  .fixed-top {
   }
 
   .fixed-top .navbar-brand .brand-bg {
@@ -143,12 +145,6 @@
   .section-title-left h2 {
     font-size: 18px;
   }
-
-  /*========== Start Clients ==========*/
-  
-
-  /*========== End Clients ==========*/
-
 
   .about-carousel img {
     border-radius: 4%;
@@ -382,9 +378,9 @@
     font-size: 18px;
   }
 
-  .carousel-inner img {
+  /* .carousel-inner img {
     height: 25rem;
-  }
+  } */
 
   /* .about-img img {
     margin-left: 0px;
@@ -542,9 +538,6 @@
     width: 100%;
   }
 
-  .carousel-inner img {
-    height: 30rem;
-}
 
   /* .about-img {
     display: block;

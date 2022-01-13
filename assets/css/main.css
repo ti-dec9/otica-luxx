@@ -453,6 +453,10 @@ body {
   height: 50px;
   position: relative;
 }
+
+.logo-mobile {
+  display: none;
+}
 .fixed-top .navbar-brand .brand-bg {
   width: 6px;
   height: 6px;
